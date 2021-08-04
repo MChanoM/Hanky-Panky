@@ -24,6 +24,28 @@
     .carrusel{
         height: 550px;
     }
+
+    /* flexbox Alexia*/
+    .dad{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .Alexia{
+        position: relative;
+        z-index: 2;
+    }
+    
+    .imgBg{
+        position: absolute;
+        z-index: 1;
+        top: 679px;
+        width: 45%;
+        height: 507px;
+        border-radius: 7.5px 7.5px;
+        opacity: 85%;
+    }
 }
 
 .logoHeader{
@@ -42,12 +64,13 @@
     background-color: black;
 }
 
-.Fonts{
+/* FUENTES */
+.FontTitle{
     font-family: 'Bebas Neue', cursive;
-font-family: 'Bevan', cursive;
-font-family: 'Bowlby One SC', cursive;
+    font-size: 40px;
 }
 
-.Fonts2{
-font-family: 'Bungee', cursive;
+.Font{
+    font-family: 'Cinzel', serif;
+    font-size: 21px;
 }
