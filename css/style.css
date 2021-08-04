@@ -1,0 +1,53 @@
+/* Small devices (landscape phones, 576px and up) */
+@media all and (max-width: 767px){
+    .carrusel{
+        height: 200px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 768px) and (max-width: 991px){
+    .carrusel{
+        height: 350px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media all and (min-width: 992px) and (max-width: 1199px){
+    .carrusel{
+        height: 500px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media all and (min-width: 1200px){
+    .carrusel{
+        height: 550px;
+    }
+}
+
+.logoHeader{
+    height: 80px;
+}
+
+.logoFooter{
+    height: 100px;
+}
+
+.background1{
+    background-color: #ffdf2b;
+}
+
+.background2{
+    background-color: black;
+}
+
+.Fonts{
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Bevan', cursive;
+font-family: 'Bowlby One SC', cursive;
+}
+
+.Fonts2{
+font-family: 'Bungee', cursive;
+}
