@@ -1,0 +1,62 @@
+.padre {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.column {
+  /* background-color: violet; */
+  width: 24%;
+}
+
+.img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 7.5px 7.5px;
+}
+
+.img:hover {
+  position: relative;
+  bottom: 5px;
+  right: 5px;
+  box-shadow: 5px 6px 0px 0px;
+}
+
+.saturate img:hover {
+  filter: saturate(30%);
+  transition: 0.9s;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    260deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(52, 51, 51, 1) 50%,
+    rgb(36, 21, 0) 100%
+  );
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media all and (max-width: 767px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media all and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media all and (min-width: 1200px) {
+  .logoHeader {
+    height: 80px;
+  }
+
+  .logoFooter {
+    height: 100px;
+  }
+}
