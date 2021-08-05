@@ -1,48 +1,153 @@
-/* Small devices (landscape phones, 576px and up) */
 @media all and (max-width: 767px) {
   .carrusel {
     height: 200px;
   }
+
+  /* flexbox Alexia*/
+  .imgAlexia {
+    width: 100px;
+    height: 200px;
+  }
+  .dad {
+    width: 220px;
+  }
+
+  .alexia {
+    padding-top: 7px;
+  }
+
+  .alexiaBg {
+    position: absolute;
+    z-index: -1;
+    top: 330px;
+    width: 230px;
+    height: 200px;
+    border-radius: 7.5px 7.5px;
+    opacity: 85%;
+  }
+
+  /* FUENTES */
+  .fontTitle {
+    font-family: "Bebas Neue", cursive;
+    font-size: 15px;
+  }
+
+  .font {
+    font-family: "Cinzel", serif;
+    text-align: justify;
+    font-size: 8px;
+    padding-top: 1px;
+    padding-left: 10px;
+  }
+
+  .background3 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(52, 51, 51, 1) 50%,
+      rgb(36, 21, 0) 100%
+    );
+    border-radius: 7.5px 7.5px;
+    width: 350px;
+  }
+
+  .logoHeader {
+    height: 80px;
+  }
+
+  .logoFooter {
+    height: 100px;
+  }
 }
 
-/* Medium devices (tablets, 768px and up) */
 @media all and (min-width: 768px) and (max-width: 991px) {
   .carrusel {
     height: 350px;
   }
+
+  /* flexbox Alexia*/
+  .imgAlexia {
+    width: 150px;
+    height: 300px;
+  }
+  .dad {
+    width: 420px;
+  }
+
+  .alexia {
+    padding-top: 30px;
+  }
+
+  .alexiaBg {
+    position: absolute;
+    z-index: -1;
+    top: 480px;
+    width: 450px;
+    height: 300px;
+    border-radius: 7.5px 7.5px;
+    opacity: 85%;
+  }
+
+  /* FUENTES */
+  .fontTitle {
+    font-family: "Bebas Neue", cursive;
+    font-size: 30px;
+  }
+
+  .font {
+    font-family: "Cinzel", serif;
+    text-align: justify;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 10px;
+  }
+
+  .background3 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(52, 51, 51, 1) 50%,
+      rgb(36, 21, 0) 100%
+    );
+    border-radius: 7.5px 7.5px;
+    width: 650px;
+  }
+
+  .logoHeader {
+    height: 80px;
+  }
+
+  .logoFooter {
+    height: 100px;
+  }
 }
 
-/* Large devices (desktops, 992px and up) */
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .carrusel {
     height: 500px;
   }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media all and (min-width: 1200px) {
-  .carrusel {
-    height: 550px;
-  }
 
   /* flexbox Alexia*/
+  .imgAlexia {
+    width: 250px;
+    height: 470px;
+  }
   .dad {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    width: 620px;
   }
 
-  .Alexia {
-    position: relative;
-    z-index: 2;
+  .alexia {
+    padding-top: 30px;
   }
 
-  .imgBg {
+  .alexiaBg {
     position: absolute;
-    z-index: 1;
-    top: 679px;
-    width: 45%;
-    height: 507px;
+    z-index: -1;
+    top: 630px;
+    width: 650px;
+    height: 470px;
     border-radius: 7.5px 7.5px;
     opacity: 85%;
   }
@@ -55,7 +160,10 @@
 
   .font {
     font-family: "Cinzel", serif;
-    font-size: 21px;
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
   }
 
   .background3 {
@@ -67,7 +175,70 @@
       rgb(36, 21, 0) 100%
     );
     border-radius: 7.5px 7.5px;
-    width: 80%;
+    width: 945px;
+  }
+
+  .logoHeader {
+    height: 80px;
+  }
+
+  .logoFooter {
+    height: 100px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .carrusel {
+    height: 550px;
+  }
+
+  /* flexbox Alexia*/
+  .imgAlexia {
+    width: 350px;
+    height: 570px;
+  }
+  .dad {
+    width: 700px;
+  }
+
+  .alexia {
+    padding-top: 30px;
+  }
+
+  .alexiaBg {
+    position: absolute;
+    z-index: -1;
+    top: 679px;
+    width: 750px;
+    height: 570px;
+    border-radius: 7.5px 7.5px;
+    opacity: 85%;
+  }
+
+  /* FUENTES */
+  .fontTitle {
+    font-family: "Bebas Neue", cursive;
+    font-size: 40px;
+  }
+
+  .font {
+    font-family: "Cinzel", serif;
+    text-align: justify;
+    font-size: 23px;
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  .background3 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(52, 51, 51, 1) 50%,
+      rgb(36, 21, 0) 100%
+    );
+    border-radius: 7.5px 7.5px;
+    width: 1100px;
   }
 
   .logoHeader {
