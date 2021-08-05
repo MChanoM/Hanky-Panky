@@ -40,6 +40,12 @@
     padding-left: 10px;
   }
 
+  .fontUl {
+    font-family: "Cinzel", serif;
+    text-align: justify;
+    font-size: 7px;
+  }
+
   .background3 {
     background: rgb(0, 0, 0);
     background: linear-gradient(
@@ -101,6 +107,12 @@
     font-size: 12px;
     padding-top: 5px;
     padding-left: 10px;
+  }
+
+  .fontUl {
+    font-family: "Cinzel", serif;
+    text-align: justify;
+    font-size: 10px;
   }
 
   .background3 {
@@ -166,6 +178,12 @@
     padding-left: 10px;
   }
 
+  .fontUl {
+    font-family: "Cinzel", serif;
+    text-align: justify;
+    font-size: 14px;
+  }
+
   .background3 {
     background: rgb(0, 0, 0);
     background: linear-gradient(
@@ -227,6 +245,12 @@
     font-size: 23px;
     padding-top: 20px;
     padding-left: 10px;
+  }
+
+  .fontUl {
+    font-family: "Cinzel", serif;
+    text-align: justify;
+    font-size: 15px;
   }
 
   .background3 {
